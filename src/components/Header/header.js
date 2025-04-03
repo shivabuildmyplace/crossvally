@@ -13,7 +13,7 @@ function Header() {
       <div className="header-container container">
         <Link to="/">
           <div className="header-logo">
-            <img src="/Final_White.png" alt="logo" />
+            <img src="/Logo-trans.png" alt="logo" />
           </div>
         </Link>
         <ul className="header-nav desktop-nav">
