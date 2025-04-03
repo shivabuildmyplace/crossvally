@@ -7,8 +7,9 @@ function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  // Header
   return (
-    <div className={`${isHomePage ? "header": "header2"}`}>
+    <div className={`${isHomePage ? "header" : "header2"}`}>
       <div className="header-container container">
         <Link to="/">
           <div>
