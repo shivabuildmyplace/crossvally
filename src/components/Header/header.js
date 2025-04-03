@@ -12,8 +12,8 @@ function Header() {
     <div className={`${isHomePage ? "header" : "header2"}`}>
       <div className="header-container container">
         <Link to="/">
-          <div>
-            <img src="/cvh_logo2.webp" alt="logo" />
+          <div className="header-logo">
+            <img src="/Final_White.png" alt="logo" />
           </div>
         </Link>
         <ul className="header-nav desktop-nav">
