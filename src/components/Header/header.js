@@ -20,14 +20,14 @@ function Header() {
           <Link to="../" className="link">
             <li>Home</li>
           </Link>
-          <Link to="../portfolio" className="link">
-            <li>Portfolio</li>
+          <Link to="../work" className="link">
+            <li>Work</li>
           </Link>
           <Link to="../process" className="link">
             <li>Process</li>
           </Link>
-          <Link to="../About" className="link">
-            <li>About</li>
+          <Link to="../firm" className="link">
+            <li>Firm</li>
           </Link>
           <Link to="../contact" className="link">
             <li>Contact</li>

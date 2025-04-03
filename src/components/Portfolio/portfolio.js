@@ -14,7 +14,7 @@ function Portfolio() {
         <Link to="../flatrock2" className="link">
           <div className="flatrock">
             <img src="/flatrock2.png" alt="flatrock2" />
-            <h2>Flatrock2</h2>
+            <h2>Bisley</h2>
           </div>
         </Link>
       </div>
