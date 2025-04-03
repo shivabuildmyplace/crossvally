@@ -1,0 +1,62 @@
+.home-image img {
+  width: 100%;
+}
+h2.home-text {
+  font-size: 20px;
+  border-style: none;
+  border-width: 0px;
+  max-width: 1000px;
+  margin: auto;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.home-text span {
+  font-weight: bold;
+}
+.text-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  margin: auto;
+  max-width: 1600px;
+}
+.sliderimage2 {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.home-swiper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* If you want it behind other content */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderimage2 {
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Fade effect customization */
+.swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 1s ease-in-out;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+@media (max-width: 768px) {
+  h2.home-text {
+    font-size: 15px;
+  }
+}

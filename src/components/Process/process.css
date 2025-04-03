@@ -1,0 +1,24 @@
+.process-container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 10px;
+}
+.contact-btn {
+  background-color: #f2f2f2;
+  padding: 20px 40px;
+  border: 0px;
+}
+
+.process-container a {
+  display: flex;
+
+  justify-content: center;
+  text-decoration: none;
+}
+.process-container li {
+  font-weight: bold;
+}
+.process-container p,
+.seconde-list-container li{
+  font-weight: normal;
+}

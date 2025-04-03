@@ -1,0 +1,10 @@
+.about-container {
+  text-align: center;
+  max-width: 1600px;
+  margin: auto;
+  margin: auto;
+  padding: 0 10px;
+}
+.about-container span {
+  font-weight: bold;
+}
