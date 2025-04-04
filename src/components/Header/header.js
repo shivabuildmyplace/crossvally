@@ -48,32 +48,32 @@ function Header() {
           <div onClick={() => setMobileMenu(false)} className="close-icon">
             <ImCross />
           </div>
-          <Link to="../" className="link" onClick={() => setMobileMenu(false)}>
+          <Link to="/" className="link" onClick={() => setMobileMenu(false)}>
             <li>Home</li>
           </Link>
           <Link
-            to="../portfolio"
+            to="/work"
             className="link"
             onClick={() => setMobileMenu(false)}
           >
-            <li>Portfolio</li>
+            <li>Work</li>
           </Link>
           <Link
-            to="../process"
+            to="/process"
             className="link"
             onClick={() => setMobileMenu(false)}
           >
             <li>Process</li>
           </Link>
           <Link
-            to="../About"
+            to="/firm"
             className="link"
             onClick={() => setMobileMenu(false)}
           >
-            <li>About</li>
+            <li>Firm</li>
           </Link>
           <Link
-            to="../contact"
+            to="/contact"
             className="link"
             onClick={() => setMobileMenu(false)}
           >
