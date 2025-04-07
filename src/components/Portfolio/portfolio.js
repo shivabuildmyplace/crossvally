@@ -7,7 +7,7 @@ function Portfolio() {
       <div className="portfolio-image-section">
         <Link to="../flatrock" className="link">
           <div className="flatrock">
-            <img src="/flatrock.jpg" alt="flatrock" />
+            <img src="/homefront2.jpg" alt="flatrock" />
             <h2>Flatrock</h2>
           </div>
         </Link>
