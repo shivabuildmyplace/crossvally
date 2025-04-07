@@ -7,9 +7,6 @@
 .header2 {
   position: sticky;
   top: 0px;
-
-  z-index: 3;
-  background-color:rgba(0, 0, 0.2, 0.2);
   z-index: 3;
 }
 .header-nav {
