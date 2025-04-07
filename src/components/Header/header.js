@@ -13,7 +13,10 @@ function Header() {
       <div className="header-container container">
         <Link to="/">
           <div className="header-logo">
-            <img src="/Logo-trans.png" alt="logo" />
+            <img
+              src={`${isHomePage ? "/Logo-trans.png" : "/logo-black.png"}`}
+              alt="logo"
+            />
           </div>
         </Link>
         <ul className="header-nav desktop-nav">
