@@ -17,13 +17,29 @@
 .header-container li {
   margin-left: 25px;
   cursor: pointer;
+  letter-spacing: 0.15em;
+  color: #ffff;
+  font-weight: 500;
 }
-.header-container {
+.header-container2 li {
+  margin-left: 25px;
+  cursor: pointer;
+  letter-spacing: 0.15em;
+  color: #000000;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container2.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0px;
+}
+.header-container.container {
+  display: flex;
+  justify-content: space-between;
 }
 .container {
   max-width: 1600px;

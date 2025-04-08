@@ -10,7 +10,13 @@ function Header() {
   // Header
   return (
     <div className={`${isHomePage ? "header" : "header2"}`}>
-      <div className="header-container container">
+      <div
+        className={`${
+          isHomePage
+            ? "header-container container"
+            : "header-container2 container"
+        }`}
+      >
         <Link to="/">
           <div className="header-logo">
             <img

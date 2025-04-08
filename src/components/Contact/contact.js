@@ -53,8 +53,8 @@ function Contact() {
         </div>
         <div className="form">
           <form onSubmit={handelSubmit}>
-            <label htmlFor="name">Name</label>
-            <div>
+            <div className="input-container">
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 id="name"
@@ -62,8 +62,9 @@ function Contact() {
                 value={name}
               />
             </div>
-            <label htmlFor="email">Email</label>
-            <div>
+
+            <div className="input-container">
+              <label htmlFor="email">Email</label>
               <input
                 type="text"
                 id="email"
@@ -71,8 +72,9 @@ function Contact() {
                 value={email}
               />
             </div>
-            <label htmlFor="text-area">Message</label>
-            <div>
+
+            <div className="input-container">
+              <label htmlFor="text-area">Message</label>
               <textarea
                 name="postContent"
                 rows={4}
