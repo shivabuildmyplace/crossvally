@@ -20,9 +20,6 @@ function Header() {
           </div>
         </Link>
         <ul className="header-nav desktop-nav">
-          <Link to="../" className="link">
-            <li>Home</li>
-          </Link>
           <Link to="../work" className="link">
             <li>Work</li>
           </Link>

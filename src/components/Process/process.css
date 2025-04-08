@@ -17,8 +17,9 @@
 }
 .process-container li {
   font-weight: bold;
+  list-style-type: none;
 }
 .process-container p,
-.seconde-list-container li{
+.seconde-list-container li {
   font-weight: normal;
 }
