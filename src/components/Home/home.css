@@ -33,7 +33,7 @@ h2.home-text {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1; /* If you want it behind other content */
+  z-index: -1; 
 }
 
 .swiper {
