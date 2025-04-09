@@ -18,8 +18,19 @@
 .process-container li {
   font-weight: bold;
   list-style-type: none;
+  font-size: 18px;
 }
 .process-container p,
 .seconde-list-container li {
   font-weight: normal;
+}
+@media (max-width: 600px) {
+  .process-container h2,
+  .process-container h3 {
+    font-size: 20px;
+  }
+  .process-container p,
+  .seconde-list-container li {
+    font-size: 18px;
+  }
 }

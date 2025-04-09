@@ -20,3 +20,8 @@
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .flatrock h2 {
+    font-size: 20px;
+  }
+}

@@ -69,3 +69,14 @@
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .form-container h2 {
+    font-size: 22px;
+  }
+  .form-container h3 {
+    font-size: 20px;
+  }
+  .form-container p {
+    font-size: 18px;
+  }
+}
