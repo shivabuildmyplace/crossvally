@@ -23,6 +23,7 @@
 .process-container p,
 .seconde-list-container li {
   font-weight: normal;
+  max-width: 1000px;
 }
 @media (max-width: 600px) {
   .process-container h2,

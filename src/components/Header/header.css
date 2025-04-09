@@ -25,10 +25,21 @@
   margin-left: 25px;
   cursor: pointer;
   letter-spacing: 0.15em;
-  color: #000000;
   font-weight: 500;
   display: flex;
   justify-content: space-between;
+}
+.active {
+  color: rgb(0, 0, 0);
+}
+.active li {
+  color: rgb(0, 0, 0);
+}
+.navlink {
+  color: rgb(86, 90, 90);
+}
+link li {
+  color: aquamarine;
 }
 .header-container2.container {
   display: flex;
@@ -90,6 +101,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
   }
   .mobile-nav-list li {
     list-style-type: none;
