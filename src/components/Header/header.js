@@ -54,9 +54,7 @@ function Header() {
           <div onClick={() => setMobileMenu(false)} className="close-icon">
             <ImCross />
           </div>
-          <Link to="/" className="link" onClick={() => setMobileMenu(false)}>
-            <li>Home</li>
-          </Link>
+
           <Link
             to="/work"
             className="link"
