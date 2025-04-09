@@ -66,19 +66,15 @@ function Header() {
             <li className="navlink">Contact</li>
           </Link>
         </ul>
-        <div>
-          <div
-            className="mobile-nav"
+        <div className="mobile-nav">
+          <IoMenu
+            size={30}
+            style={{ color: isHomePage ? "white" : "black" }}
             onClick={() => {
               setMobileMenu(!mobileMenu);
             }}
-          >
-            <IoMenu
-              size={30}
-              style={{ color: isHomePage ? "white" : "black" }}
-            />
-          </div>
-          <div className="header-icons">
+          />
+          <div>
             <Link to="/">
               {" "}
               <svg
