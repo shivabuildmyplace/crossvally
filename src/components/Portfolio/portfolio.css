@@ -18,6 +18,7 @@
 .portfolio-container {
   max-width: 1600px;
   margin: auto;
+  height: 90vh;
 }
 @media (max-width: 1444px) {
   .portfolio-image-section {

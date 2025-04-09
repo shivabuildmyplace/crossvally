@@ -87,7 +87,9 @@
     display: none;
   }
   .mobile-nav {
-    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .mobile-nav-list li {
     list-style-type: none;

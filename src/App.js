@@ -7,6 +7,8 @@ import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import Flatrock1 from "./components/portfolio-sliders/flatrock1";
 import Flatrock2 from "./components/portfolio-sliders/flat-rock2";
+import Footer from "./components/Footer/Footer";
+
 import "./App.css";
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
           <Route path="/flatrock" element={<Flatrock1 />} />
           <Route path="/flatrock2" element={<Flatrock2 />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

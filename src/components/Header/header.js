@@ -45,7 +45,7 @@ function Header() {
             setMobileMenu(!mobileMenu);
           }}
         >
-          <IoMenu size={30} />
+          <IoMenu size={30} style={{ color: isHomePage ? "white" : "black" }} />
         </div>
       </div>
 
