@@ -63,7 +63,7 @@ function Process() {
           <button className="contact-btn">Contact Us!</button>
         </Link>
         <hr className="hr" />
-        <div className="seconde-list-container">
+        <div className="seconde-list-container process-container">
           <h2>Construction Process:</h2>
           <ul>
             <li>
@@ -84,10 +84,10 @@ function Process() {
               satisfied with the result.
             </li>
           </ul>
-          <h3>
+          <h2>
             By entrusting us with your project, you can focus on envisioning
             your dream home while we bring it to life!
-          </h3>
+          </h2>
         </div>
       </div>
     </>

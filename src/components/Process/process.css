@@ -56,6 +56,7 @@ hr.hr {
   width: 85%;
   height: 0.3px;
 }
+
 @media (max-width: 600px) {
   .process-container h2,
   .process-container h3 {
@@ -71,7 +72,10 @@ hr.hr {
     font-size: 17.5px;
   }
   .process-container ul {
-     max-width: 100%; 
+    max-width: 100%;
     margin-left: -3%;
+  }
+  .process-container {
+    height: 246vh;
   }
 }
