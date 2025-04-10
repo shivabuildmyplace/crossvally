@@ -3,7 +3,7 @@
   padding: 0 20px;
   margin: auto;
   margin-bottom: 20px;
-  height: 140vh;
+  height: 100vh;
 }
 .form-section {
   display: flex;
@@ -59,6 +59,7 @@
   .form-section {
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
   }
   .form-section input,
   .text-are {
@@ -79,14 +80,28 @@
   }
 }
 @media (max-width: 600px) {
+  .form-container {
+    margin-top: 10%;
+  }
   .form-container h2 {
-    font-size: 22px;
+    font-size: 19px;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    font-style: normal;
+    margin: 1em 0 0.5em;
+    text-transform: uppercase;
   }
   .form-container h3 {
     font-size: 20px;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
   .form-container p {
     font-size: 18px;
+    text-align: center;
+    color: #666;
   }
   .form {
     padding-left: 0%;

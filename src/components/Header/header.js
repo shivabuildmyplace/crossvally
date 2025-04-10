@@ -69,7 +69,6 @@ function Header() {
         <div className="mobile-nav">
           <div>
             <Link to="/">
-              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30px"
@@ -87,6 +86,7 @@ function Header() {
             </Link>
           </div>
           <IoMenu
+            className="home-btn"
             size={30}
             style={{ color: isHomePage ? "white" : "black" }}
             onClick={() => {

@@ -4,14 +4,13 @@ function Flatrock1() {
   let images = ["img1.png", "img2.png", "img3.png"];
   return (
     <div className="slider-container">
-      <h3>Cross Valley Homes</h3>
-      <h5>Roxbury House</h5>
+      <h5>Flatrock</h5>
       <div className="flex-container">
         <ul>
           {images.map((items) => (
             <li className="pageImages">
               <div className="image-slider">
-                <img src={items} alt={items} loading="eager"/>
+                <img src={items} alt={items} loading="eager" />
               </div>
             </li>
           ))}

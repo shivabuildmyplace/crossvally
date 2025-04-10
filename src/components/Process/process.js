@@ -55,8 +55,8 @@ function Process() {
         </ul>
         <hr className="hr" />
         <p className="upper-text">
-          Like one of our plans but want some changes? We’ll tailor it to your
-          needs!
+          Like one of our plans but want some changes?
+          <br /> We’ll tailor it to your needs!
         </p>
 
         <Link to="../contact">

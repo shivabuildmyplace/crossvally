@@ -12,6 +12,7 @@
   padding: 20px 40px;
   border: 0px;
   margin-bottom: 20%;
+  font-size: 14px;
 }
 .process-container h2 {
   font-size: 19px;
@@ -60,10 +61,10 @@ hr.hr {
 @media (max-width: 600px) {
   .process-container h2,
   .process-container h3 {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.2em;
     letter-spacing: 0.05em;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     margin: 1em 0 0.5em;
     text-transform: uppercase;
@@ -83,5 +84,17 @@ hr.hr {
   }
   .process-container {
     height: 150%;
+    margin-top: 10%;
+  }
+  hr.hr {
+    width: 100%;
+  }
+  p.upper-text {
+    text-align: center;
+  }
+  p.upper-text {
+    font-weight: 500;
+    margin-top: 8%;
+    margin-bottom: 10%;
   }
 }
