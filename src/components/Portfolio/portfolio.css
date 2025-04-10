@@ -1,7 +1,8 @@
 .portfolio-image-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 10px;
+  padding: 20px;
 }
 .flatrock {
   height: 500px;
@@ -19,6 +20,14 @@
   max-width: 1600px;
   margin: auto;
   height: 90vh;
+  margin-top: 30px;
+}
+.portfolio-container .text {
+  padding-left: 2%;
+}
+.text h2,
+.text h5 {
+  margin: 0px;
 }
 @media (max-width: 1444px) {
   .portfolio-image-section {
@@ -38,10 +47,14 @@
 }
 @media (max-width: 768px) {
   .flatrock {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 325px;
   }
   .portfolio-image-section {
-    gap: 90px;
+    gap: 70px;
+    margin-top: 30px;
+  }
+  .portfolio-container .text {
+    padding-left: 10%;
   }
 }

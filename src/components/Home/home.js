@@ -27,7 +27,7 @@ function Home() {
           height: "100vh",
         }}
       >
-        {[...Array(3)].map((_, index) => (
+        {[...Array(1)].map((_, index) => (
           <SwiperSlide key={index}>
             <div className="sliderimage2">
               <img

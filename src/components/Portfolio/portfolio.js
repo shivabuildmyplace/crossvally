@@ -6,6 +6,10 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-container">
+        <div className="text">
+          <h2>RESIDENTIAL</h2>
+          <h5>Houese</h5>
+        </div>
         <div className="portfolio-image-section">
           <Link to="../flatrock" className="link">
             <div className="flatrock">
@@ -21,7 +25,6 @@ function Portfolio() {
           </Link>
         </div>
       </div>
-      
     </>
   );
 }

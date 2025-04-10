@@ -1,15 +1,21 @@
 import "./index.css";
 function Flatrock2() {
-  let images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let images = ["img1.png", "img2.png", "img3.png"];
   return (
     <div className="slider-container">
+      <h3>Cross Valley Homes</h3>
+      <h5>Roxbury House</h5>
       <div className="flex-container">
         <ul>
           {images.map((items) => (
-            <li className="pageImages">{items}</li>
+            <li className="pageImages">
+              <div className="image-slider">
+                <img src={items} alt={items} />
+              </div>
+            </li>
           ))}
         </ul>
-        <div>
+        <div className="content">
           <h3>
             A property description, at its core, is more than just a rundown of
             a home's features and specs. It's a crafted narrative that plays a
