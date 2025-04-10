@@ -2,16 +2,15 @@ import { Link } from "react-router-dom";
 import "./process.css";
 
 function Process() {
-  
   return (
     <>
       <div className="process-container">
         <h2>Design Process</h2>
         <p>
           At our firm, we take a structured and client-focused approach to
-          custom home design and construction. From the first meeting to the
-          final handoff, every step is tailored to meet your vision, lifestyle,
-          and budget.
+          custom home design and construction. <br />
+          From the first meeting to the final handoff, every step is tailored to
+          meet your vision, lifestyle, and budget.
         </p>
         <ul>
           <li>
@@ -54,13 +53,16 @@ function Process() {
             </p>
           </li>
         </ul>
-        <p>
+        <hr className="hr" />
+        <p className="upper-text">
           Like one of our plans but want some changes? We’ll tailor it to your
           needs!
         </p>
+
         <Link to="../contact">
           <button className="contact-btn">Contact Us!</button>
         </Link>
+        <hr className="hr" />
         <div className="seconde-list-container">
           <h2>Construction Process:</h2>
           <ul>
@@ -88,7 +90,6 @@ function Process() {
           </h3>
         </div>
       </div>
-      
     </>
   );
 }
