@@ -32,7 +32,8 @@ function Home() {
             <div className="sliderimage2">
               <img
                 loading="eager"
-                src={`/home${index + 1}.jpg`}
+                // src={`/home${index + 1}.jpg`}
+                src="https://res.cloudinary.com/dj7bc9qpp/image/upload/v1744298358/home3_bsouno.png"
                 alt={`Slide ${index + 1}`}
                 style={{
                   width: "100%",
