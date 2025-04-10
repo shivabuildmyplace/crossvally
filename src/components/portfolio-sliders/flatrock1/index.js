@@ -11,7 +11,7 @@ function Flatrock1() {
           {images.map((items) => (
             <li className="pageImages">
               <div className="image-slider">
-                <img src={items} alt={items} loading="lazy"/>
+                <img src={items} alt={items} loading="eager"/>
               </div>
             </li>
           ))}
