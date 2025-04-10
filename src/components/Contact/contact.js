@@ -52,7 +52,7 @@ function Contact() {
         </p>
         <div className="form-section">
           <div className="form-image">
-            <img src="/form2.webp" alt="form-image" />
+            <img src="/form2.webp" alt="form-image" loading="lazy" />
           </div>
           <div className="form">
             <form onSubmit={handelSubmit}>
@@ -94,7 +94,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }

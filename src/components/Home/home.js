@@ -31,6 +31,7 @@ function Home() {
           <SwiperSlide key={index}>
             <div className="sliderimage2">
               <img
+                loading="lazy"
                 src={`/home${index + 1}.jpg`}
                 alt={`Slide ${index + 1}`}
                 style={{
