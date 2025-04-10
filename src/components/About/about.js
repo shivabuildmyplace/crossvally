@@ -4,8 +4,8 @@ function About() {
   return (
     <>
       <div className="about-container">
-        <h2>The Firm</h2>
-        <h2>Captivate and Inspire.</h2>
+        <h2>FIRM</h2>
+        <h2 className="capttaive">Captivate and Inspire.</h2>
         <p>
           We are a <span>Design + Build</span> firm specializing in custom
           homes, blending design excellence with precision craftsmanship to

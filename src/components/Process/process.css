@@ -60,7 +60,13 @@ hr.hr {
 @media (max-width: 600px) {
   .process-container h2,
   .process-container h3 {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0 0.5em;
+    text-transform: uppercase;
   }
   .process-container p,
   .seconde-list-container li {
@@ -76,6 +82,6 @@ hr.hr {
     margin-left: -3%;
   }
   .process-container {
-    height: 246vh;
+    height: 150%;
   }
 }
