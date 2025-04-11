@@ -28,8 +28,19 @@
   max-width: 48%;
 }
 .form-container h2,
-.form-container h3,
+.form-container h3 {
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-style: normal;
+  margin: 1em 0 0.5em;
+  text-transform: uppercase;
+}
 .form-container p {
+  font-size: 17.5px;
+  color: #666;
   text-align: center;
 }
 .text-are {
