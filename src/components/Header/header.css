@@ -100,6 +100,7 @@ link li {
 }
 .home-btn {
   margin-left: 10px;
+  margin-bottom: -6%;
 }
 @media (max-width: 768px) {
   .desktop-nav {
@@ -109,6 +110,8 @@ link li {
     align-items: center;
     justify-content: center;
     display: flex;
+    align-self: flex-end;
+    margin-bottom: 2%;
   }
   .mobile-nav-list li {
     list-style-type: none;

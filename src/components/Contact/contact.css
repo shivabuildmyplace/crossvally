@@ -29,14 +29,17 @@
 }
 .form-container h2,
 .form-container h3 {
-  text-align: center;
   font-size: 19px;
   line-height: 1.2em;
   letter-spacing: 0.05em;
   font-weight: 500;
   font-style: normal;
-  margin: 3em 0 0.5em;
+  margin: 1em 0 0.5em;
   text-transform: uppercase;
+  text-align: center;
+}
+.form-container h2 {
+  margin-bottom: 3rem;
 }
 .form-container p {
   font-size: 17.5px;
