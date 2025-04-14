@@ -1,8 +1,11 @@
 .portfolio-image-section {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   margin-top: 10px;
   padding: 20px;
+}
+.portfolio-image-section .link {
+  overflow: hidden;
 }
 .flatrock {
   height: 500px;
@@ -54,7 +57,7 @@
 @media (max-width: 1444px) {
   .portfolio-image-section {
     display: flex;
-    gap: 50px;
+    justify-content: center;
   }
   .flatrock {
     height: 446px;
