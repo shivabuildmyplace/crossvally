@@ -1,0 +1,73 @@
+.louisville-container {
+  max-width: 1600px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.text h1 {
+  text-align: center;
+}
+.text .header {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.text p {
+  font-size: 17.5px;
+  color: #666;
+}
+.timing-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.timing-container {
+  display: flex;
+  gap: 3%;
+}
+.timing-container li {
+  font-size: 17.5px;
+  color: #666;
+}
+.timing-container ul {
+  padding: 0px;
+}
+.image-container {
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-one {
+  display: flex;
+}
+.rotate-text {
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0px;
+  top: 80%;
+  left: 70%;
+  font-size: 70px;
+  margin: 0px;
+}
+.rotate-text h3{
+    margin: 0px;
+}
+@media (max-width: 1500px) {
+  .rotate-text {
+    top: 74%;
+  }
+}
+@media (max-width: 1200px) {
+  .rotate-text {
+    top: 66%;
+  }
+}
+@media (max-width: 998px) {
+  .rotate-text {
+    top: 56%;
+  }
+}

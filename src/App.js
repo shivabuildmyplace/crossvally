@@ -8,6 +8,7 @@ import Contact from "./components/Contact/contact";
 import Flatrock1 from "./components/portfolio-sliders/flatrock1";
 import Flatrock2 from "./components/portfolio-sliders/flat-rock2";
 import Footer from "./components/Footer/Footer";
+import Louisville from "./components/LouisvillePage/Louisville";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/flatrock" element={<Flatrock1 />} />
           <Route path="/flatrock2" element={<Flatrock2 />} />
+          <Route path="/Louisville" element={<Louisville />} />
         </Routes>
         <Footer />
       </BrowserRouter>

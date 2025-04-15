@@ -30,13 +30,17 @@ function Header() {
         </Link>
         <ul className="header-nav desktop-nav">
           <Link
+            to="../Louisville"
+            className={`${
+              location.pathname.includes("/Louisville") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Louisville Homearama 2025</li>
+          </Link>
+          <Link
             to="../work"
             className={`${
-              location.pathname.includes("/work") ||
-              location.pathname.includes("/flatrock2") ||
-              location.pathname.includes("/flatrock2")
-                ? "active"
-                : "link"
+              location.pathname.includes("/work") ? "active" : "link"
             }`}
           >
             <li className="navlink">Work</li>
@@ -103,7 +107,8 @@ function Header() {
 
             <div></div>
           </div>
-
+          <Link>
+          <li></li></Link>
           <Link
             to="/work"
             className="link"

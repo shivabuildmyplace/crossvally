@@ -6,6 +6,7 @@
 .flex-container {
   display: flex;
   gap: 10px;
+  margin-top: 10%;
 }
 .flex-container ul {
   padding: 0px;
@@ -18,13 +19,13 @@
   width: 100%;
 }
 .slider-container h5 {
-  color: #666;
-  font-size: 17.5px;
-  font-weight: 400;
-  margin-top: 10%;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 4%;
 }
 .content h3 {
-  font-size: 18px;
+  font-size: 17.5px;
   font-weight: normal;
   color: #666;
 }
@@ -35,6 +36,10 @@
 .image-slider img {
   height: 100%;
   width: 100%;
+}
+.heading-container h3 {
+  color: #000000;
+  font-size: 18px;
 }
 @media (max-width: 1300px) {
   .flex-container {
