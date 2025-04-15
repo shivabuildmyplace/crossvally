@@ -23,28 +23,26 @@ function Flatrock1() {
         </ul>
         <div className="content">
           <h3>
-            A property description, at its core, is more than just a rundown of
-            a home's features and specs. It's a crafted narrative that plays a
-            crucial role in the real estate market, serving as the bridge
-            between a listing and its potential buyers. This narrative
-            transforms cold, hard facts about square footage, location, and
-            amenities into a story that resonates with home shoppers, making
-            them feel as though they've found their dream home before even
-            stepping through the front door. Creating a compelling property
-            listing description is an art that blends creativity with strategy,
-            turning a standard listing into a captivating narrative that grabs
-            potential buyers' attention and gets clicks. It's about highlighting
-            unique features, like a sun-filled master bedroom overlooking a
-            tree-lined street or a gourmet kitchen designed for entertaining,
-            coupled with attention-grabbing headlines, brand name appliances,
-            and SEO-boosting keywords. These elements are crucial in crafting
-            descriptions that not only stand out but resonate deeply with
-            potential buyers, encouraging them to envision their future in the
-            home. Every word, from describing a cozy fireplace to a spa-like
-            bathroom, is a chance to connect, persuade, and ultimately, convert
-            interest into action. This strategic approach transforms a real
-            estate listing description from mere details into a compelling
-            invitation to a potential
+            Flatrock is a thoughtfully designed custom home that celebrates
+            open-plan living and spatial continuity. At the heart of the design
+            is a mono stringer floating staircase with solid walnut treads—an
+            architectural focal point that enhances the vertical openness of the
+            two-story great room. A modern fireplace anchors the living space,
+            featuring a clean-lined hearth that offers the option for integrated
+            seating or custom cushions—blurring the line between function and
+            design. Natural light floods the interior through expansive windows
+            and an 8'x8' sliding glass door that connects the great room to the
+            outdoor living area, creating a seamless indoor-outdoor experience.
+            An exposed structural steel beam spans the main living space,
+            offering a subtle visual divide between the great room and the
+            kitchen island and dining area. This element adds both definition
+            and industrial character to the open plan. In the kitchen, the area
+            around the range is purposefully minimal, allowing the full-height
+            backsplash to become a visual statement. The space is equipped with
+            a complete chef’s kitchen, balancing aesthetics with high
+            performance. Upstairs, each secondary bedroom features its own
+            en-suite bathroom, offering privacy and convenience—ideal for modern
+            family living or hosting guests.
           </h3>
         </div>
       </div>
