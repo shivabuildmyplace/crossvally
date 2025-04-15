@@ -45,29 +45,23 @@
   display: flex;
 }
 .rotate-text {
+  text-align: center;
+}
+.rotate-text h3 {
   transform: rotate(90deg);
   position: absolute;
-  right: 0px;
-  top: 80%;
-  left: 70%;
-  font-size: 70px;
+  top: 66%;
+
+  font-size: 60px;
   margin: 0px;
 }
-.rotate-text h3{
-    margin: 0px;
+.flex-two {
+  display: flex;
 }
-@media (max-width: 1500px) {
-  .rotate-text {
-    top: 74%;
-  }
-}
-@media (max-width: 1200px) {
-  .rotate-text {
-    top: 66%;
-  }
-}
-@media (max-width: 998px) {
-  .rotate-text {
-    top: 56%;
-  }
+.rotate-text-2 h3 {
+  transform: rotate(90deg);
+  font-size: 60px;
+  margin: 0px;
+  position: relative;
+  top: 50%;
 }

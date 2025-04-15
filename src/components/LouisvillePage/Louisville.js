@@ -5,7 +5,7 @@ function Louisville() {
       <div className="text">
         <h1>Louisville Homearama 2025</h1>
         <p>
-          <span className="header">
+          <span className="span-header">
             We’re excited to be part of{" "}
             <a href="https://www.homearama.com/" target="_blank">
               Homearama{" "}
@@ -52,8 +52,14 @@ function Louisville() {
             <h3>FlatRock</h3>
           </div>
         </div>
-        <div className="image-container">
-          <img src="/flatrock2.png" alt="homeimage" />
+
+        <div className="flex-two">
+          <div className="rotate-text-2">
+            <h3>Bisley</h3>
+          </div>
+          <div className="image-container">
+            <img src="/flatrock2.png" alt="homeimage" />
+          </div>
         </div>
       </div>
     </div>
