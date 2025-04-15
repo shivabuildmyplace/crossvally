@@ -23,6 +23,10 @@ function Flatrock1() {
         </ul>
         <div className="content">
           <h3>
+            2 story residence with finished basement | 4,080 sf 4 bedroom, 4.5
+            bath
+          </h3>
+          <h3>
             Flatrock is a thoughtfully designed custom home that celebrates
             open-plan living and spatial continuity. At the heart of the design
             is a mono stringer floating staircase with solid walnut treads—an

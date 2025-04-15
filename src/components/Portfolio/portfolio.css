@@ -17,7 +17,6 @@
   height: 100%;
 }
 .flatrock h2 {
-  color: black;
   font-size: 17.5px;
   text-align: left;
   color: #666;
@@ -26,6 +25,7 @@
   font-weight: 400;
   font-style: normal;
   margin: 0px;
+  position: absolute;
 }
 .portfolio-container {
   max-width: 1600px;
