@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Louisville.css";
 function Louisville() {
   return (
@@ -49,21 +50,25 @@ function Louisville() {
           </div>
         </div>
         <div className="flex-one">
-          <div className="image-container">
-            <img src="/home1.jpg" alt="homeimage" />
-            <div className="rotate-text">
-              <h3>FlatRock</h3>
+          <Link to="/flatrock">
+            <div className="image-container">
+              <img src="/home1.jpg" alt="homeimage" />
+              <div className="rotate-text">
+                <h3>FlatRock</h3>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="flex-one">
-          <div className="image-container">
-            <img src="/flatrock2.png" alt="homeimage" />
-            <div className="rotate-text">
-              <h3>Bisley</h3>
+          <Link to="/flatrock2">
+            <div className="image-container">
+              <img src="/flatrock2.png" alt="homeimage" />
+              <div className="rotate-text">
+                <h3>Bisley</h3>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

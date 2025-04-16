@@ -104,11 +104,8 @@ function Header() {
         <ul className="mobile-nav-list">
           <div onClick={() => setMobileMenu(false)} className="close-icon">
             <ImCross />
-
-            <div></div>
           </div>
-          <Link>
-          <li></li></Link>
+
           <Link
             to="/work"
             className="link"
@@ -136,6 +133,13 @@ function Header() {
             onClick={() => setMobileMenu(false)}
           >
             <li>Contact</li>
+          </Link>
+          <Link
+            to="/Louisville"
+            className="link"
+            onClick={() => setMobileMenu(false)}
+          >
+            <li>Louisville Homearama 2025</li>
           </Link>
         </ul>
       )}
