@@ -100,49 +100,43 @@ function Header() {
         </div>
       </div>
 
-      {mobileMenu && (
-        <ul className="mobile-nav-list">
-          <div onClick={() => setMobileMenu(false)} className="close-icon">
-            <ImCross />
-          </div>
+      <ul
+        className={`${
+          mobileMenu ? "mobile-nav-list activemenu" : "mobile-nav-list"
+        }`}
+      >
+        <div onClick={() => setMobileMenu(false)} className="close-icon">
+          <ImCross />
+        </div>
 
-          <Link
-            to="/work"
-            className="link"
-            onClick={() => setMobileMenu(false)}
-          >
-            <li>Work</li>
-          </Link>
-          <Link
-            to="/process"
-            className="link"
-            onClick={() => setMobileMenu(false)}
-          >
-            <li>Process</li>
-          </Link>
-          <Link
-            to="/firm"
-            className="link"
-            onClick={() => setMobileMenu(false)}
-          >
-            <li>Firm</li>
-          </Link>
-          <Link
-            to="/contact"
-            className="link"
-            onClick={() => setMobileMenu(false)}
-          >
-            <li>Contact</li>
-          </Link>
-          <Link
-            to="/Louisville"
-            className="link"
-            onClick={() => setMobileMenu(false)}
-          >
-            <li>Louisville Homearama 2025</li>
-          </Link>
-        </ul>
-      )}
+        <Link to="/work" className="link" onClick={() => setMobileMenu(false)}>
+          <li>Work</li>
+        </Link>
+        <Link
+          to="/process"
+          className="link"
+          onClick={() => setMobileMenu(false)}
+        >
+          <li>Process</li>
+        </Link>
+        <Link to="/firm" className="link" onClick={() => setMobileMenu(false)}>
+          <li>Firm</li>
+        </Link>
+        <Link
+          to="/contact"
+          className="link"
+          onClick={() => setMobileMenu(false)}
+        >
+          <li>Contact</li>
+        </Link>
+        <Link
+          to="/Louisville"
+          className="link"
+          onClick={() => setMobileMenu(false)}
+        >
+          <li>Louisville Homearama 2025</li>
+        </Link>
+      </ul>
     </div>
   );
 }
