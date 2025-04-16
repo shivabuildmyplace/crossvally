@@ -7,7 +7,11 @@ function Louisville() {
         <p>
           <span className="span-header">
             We’re excited to be part of{" "}
-            <a href="https://www.homearama.com/" target="_blank">
+            <a
+              href="https://www.homearama.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Homearama{" "}
             </a>
             this year!
