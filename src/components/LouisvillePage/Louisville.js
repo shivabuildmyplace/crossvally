@@ -51,18 +51,18 @@ function Louisville() {
         <div className="flex-one">
           <div className="image-container">
             <img src="/home1.jpg" alt="homeimage" />
-          </div>
-          <div className="rotate-text">
-            <h3>FlatRock</h3>
+            <div className="rotate-text">
+              <h3>FlatRock</h3>
+            </div>
           </div>
         </div>
 
-        <div className="flex-two">
-          <div className="rotate-text-2">
-            <h3>Bisley</h3>
-          </div>
+        <div className="flex-one">
           <div className="image-container">
             <img src="/flatrock2.png" alt="homeimage" />
+            <div className="rotate-text">
+              <h3>Bisley</h3>
+            </div>
           </div>
         </div>
       </div>
