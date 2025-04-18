@@ -19,7 +19,7 @@ function Portfolio() {
           </Link>
           <Link to="../flatrock2" className="link">
             <div className="flatrock">
-              <img src="/flatrock2.png" alt="flatrock2" />
+              <img src="/bisely1.jpg" alt="flatrock2" />
               <h2>Bisley</h2>
             </div>
           </Link>
