@@ -32,7 +32,8 @@ function Home() {
             <div className="sliderimage2">
               <img
                 loading="eager"
-                src={`/home${index + 1}.jpg`}
+                // src={`/bisely4${index + 1}.jpg`}
+                src="/bisely4.jpg"
                 alt={`Slide ${index + 1}`}
                 style={{
                   width: "100%",

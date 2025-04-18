@@ -101,6 +101,7 @@
 @media (max-width: 600px) {
   .form-container {
     margin-top: 10%;
+    height: 100%;
   }
   .form-container h2 {
     font-size: 19px;
