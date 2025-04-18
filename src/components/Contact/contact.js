@@ -36,8 +36,14 @@ function Contact() {
       );
       let response = await fetchingdata.json();
       console.log(response);
+      setName("");
+      setEmail("");
+      setTextarea("");
     } catch (e) {
       console.log(e);
+      setName("");
+      setEmail("");
+      setTextarea("");
     }
   };
   return (
