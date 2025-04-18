@@ -1,6 +1,15 @@
 import "./index.css";
 function Flatrock2() {
-  let images = ["bisely1.jpg", "bisely2.jpg", "bisely3.jpg","bisely4.jpg"];
+  let images = [
+    "bisely1.jpg",
+    "bisely3.jpg",
+    "bisely4.jpg",
+    "img11.png",
+    "img12.png",
+    "img13.png",
+    "img14.png",
+    "img15.png",
+  ];
   return (
     <div className="slider-container">
       {/* <h5>Flatrock</h5> */}
