@@ -29,58 +29,46 @@ function Header() {
           </div>
         </Link>
         <ul className="header-nav desktop-nav">
-          <li>
-            <Link
-              to="../Louisville"
-              className={`${
-                location.pathname.includes("/Louisville") ? "active" : "link"
-              }`}
-            >
-              <li className="navlink">Louisville Homearama 2025</li>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="../work"
-              className={`${
-                location.pathname.includes("/work") ? "active" : "link"
-              }`}
-            >
-              <li className="navlink">Work</li>
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              to="../process"
-              className={`${
-                location.pathname.includes("/process") ? "active" : "link"
-              }`}
-            >
-              <li className="navlink">Process</li>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="../firm"
-              className={`${
-                location.pathname.includes("/firm") ? "active" : "link"
-              }`}
-            >
-              <li className="navlink">Firm</li>
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link
-              to="../contact"
-              className={`${
-                location.pathname.includes("/contact") ? "active" : "link"
-              }`}
-            >
-              <li className="navlink">Contact</li>
-            </Link>
-          </li>
+          <Link
+            to="../Louisville"
+            className={`${
+              location.pathname.includes("/Louisville") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Louisville Homearama 2025</li>
+          </Link>
+          <Link
+            to="../work"
+            className={`${
+              location.pathname.includes("/work") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Work</li>
+          </Link>
+          <Link
+            to="../process"
+            className={`${
+              location.pathname.includes("/process") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Process</li>
+          </Link>
+          <Link
+            to="../firm"
+            className={`${
+              location.pathname.includes("/firm") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Firm</li>
+          </Link>
+          <Link
+            to="../contact"
+            className={`${
+              location.pathname.includes("/contact") ? "active" : "link"
+            }`}
+          >
+            <li className="navlink">Contact</li>
+          </Link>
         </ul>
         <div className="mobile-nav">
           <div>
