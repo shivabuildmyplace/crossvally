@@ -72,7 +72,7 @@ function Louisville() {
         <div className="flex-one">
           <Link to="/flatrock">
             <div className="image-container">
-              <img src="/home1.jpg" alt="homeimage" />
+              <img src="/bisely4.jpg" alt="homeimage" />
               <div className="rotate-text">
                 <h3>FlatRock</h3>
               </div>
