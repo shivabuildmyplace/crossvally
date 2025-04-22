@@ -1,6 +1,7 @@
 import "./index.css";
 function Flatrock2() {
   let images = [
+    "bisely2.jpg",
     "bisely1.png",
     "bisely2.png",
     "bisely3.png",
